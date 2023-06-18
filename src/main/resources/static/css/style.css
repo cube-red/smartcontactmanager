@@ -1,3 +1,25 @@
-body{
-	background : #e2e2e2!important;
+.bg-primary{
+	background : #F4BE2C!important;
+}
+
+.banner{
+	width: 100%;
+	height : 93vh;
+	background : white;
+	
+}
+
+p, h1{
+	margin : 0;
+}
+
+.intro{
+	padding-right : 200px;
+	padding-top : 300px;
+	color : #8D3DAF;
+}
+
+.btn-primary{
+	background : #E5D68A!important;
+	border-color : #E5D68A;
 }
