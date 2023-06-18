@@ -1,3 +1,6 @@
+body{
+	background: #CAD5E2!important;
+}
 .bg-primary{
 	background : #F4BE2C!important;
 }
@@ -22,4 +25,8 @@ p, h1{
 .btn-primary{
 	background : #E5D68A!important;
 	border-color : #E5D68A;
+}
+
+.mycard{
+	padding : 20px
 }
