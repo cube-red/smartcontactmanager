@@ -102,6 +102,13 @@ public class User {
 		this.about = about;
 	}
 	
+	@Override
+	public String toString() {
+		return "User [id=" + id + ", name=" + name + ", email=" + email + ", password=" + password + ", role=" + role
+				+ ", isEnabled=" + isEnabled + ", imageUrl=" + imageUrl + ", about=" + about + ", contactss="
+				+ contactss + "]";
+	}
+
 	public List<Contact> getContactss() {
 		return contactss;
 	}
